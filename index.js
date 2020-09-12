@@ -13,6 +13,10 @@ function greet(timeString) {
     return 'Good Morning';
   };
 
+  if (time > 12 && < 5) {
+    return 'Good Afternoon'
+  };
+
   if (time > 5) {
     return 'Good Evening';
   };
