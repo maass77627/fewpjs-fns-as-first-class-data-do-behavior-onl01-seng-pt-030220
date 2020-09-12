@@ -9,7 +9,7 @@ function handleClick(e) {
 
 function greet(time) {
   if (time < 12) {
-    return "Good Morning";
+    return 'Good Morning';
   };
 
 }
