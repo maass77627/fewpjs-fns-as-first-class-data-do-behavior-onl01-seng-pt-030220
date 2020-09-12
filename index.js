@@ -11,7 +11,7 @@ function greet(time) {
   if (time < 12) {
     return "Good Morning";
   }
-  
+
 }
 
 /* End Given Code, don't edit above here...*/
