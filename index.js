@@ -7,6 +7,13 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
+function greet(time) {
+  if (time < 12) {
+    return "Good Morning";
+  }
+  
+}
+
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
