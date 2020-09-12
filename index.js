@@ -7,7 +7,8 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-function greet(time) {
+function greet(timeString) {
+  let time = timeString.parseInt()
   if (time < 12) {
     return 'Good Morning';
   };
